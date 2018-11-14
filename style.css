@@ -158,14 +158,16 @@ body,html{
  border: 1px solid pink;
 }
 .platform{
-  border:1px solid green;
   background-color: white;
   text-align: center;
   margin-right: 20px;
   border-radius: 5px;
   width: 250px;
   height: 290px;
-  
+  margin-top:20px; 
+}
+.platform-one{
+  margin-top:50px; 
 }
 .list-platform h3{
   color: #00b39b;
