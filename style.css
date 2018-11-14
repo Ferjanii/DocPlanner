@@ -1,0 +1,172 @@
+*{
+  box-sizing: border-box;
+}
+body,html{
+  font-family:sans-serif;
+}
+.header-section{
+  display:flex;
+  justify-content:space-around;
+}
+ .header-information{
+  display:flex;
+  justify-content:space-around;
+  border:1px solid red;
+}
+.link-color{
+  text-decoration:none;
+  color:#00b39b;
+}
+.link-carrer{
+  text-decoration:none;
+  color:#ababab;
+}
+.main-header-section{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+.main-paragraph{
+  display:flex;
+  justify-content:space-around;
+  max-width: 900px;
+  line-height:30px;
+  color: #747474;  
+}
+.main-section-select{
+  border:1px solid yellow;
+  display:flex;
+}
+.main-section-select h1{
+  font-size:26px;
+  color:white; 
+  font-weight: lighter;
+  max-width: 400px;
+  padding-left: 30px;
+}
+.main-section-select h2{
+  font-size:16px;
+  color:black;
+  font-weight: lighter;
+  color: hsla(0,0%,100%,.7);
+  padding-left: 30px;
+}
+.box-patient{
+  flex:1;
+  background-color: #00ccb1;
+  border-radius:20px;
+  width: 550px;
+  margin-left:20px;
+  height: 400px;
+}
+.main-box-patient{
+
+}
+.box-img-patient{
+  background: url("https://www.docplanner.com/img/screen-marketplace@2x.png");
+  height:400px;
+  background-repeat:no-repeat;
+  background-size:cover;
+  margin-left:195px;
+  height:250px;
+}
+.list-box{
+  height: 40px;
+  border-radius: 5px;
+  margin-left: 30px;
+  width: 35%;
+  border: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding-left: 14px;
+}
+.list:hover{
+  background-color:rgba(238, 238, 238, 1);
+}
+.box-doctor{
+  border:1px solid blue;
+  flex:1;
+  background-color:#3d83df;
+  border-radius:20px;
+  margin-left:20px;
+  height: 400px;
+}
+.box-img-doc{
+   background: url("https://www.docplanner.com/img/screen-saas@2x.png");
+  height:400px;
+  background-repeat:no-repeat;
+  background-size:cover;
+  margin-left:195px;
+  height:250px;
+}
+.company{
+  display: flex;
+}
+.list-company{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-right: 100px;
+  padding-left: 70px;
+  max-width:710px;
+  padding-top: 50px;
+  fill: hsla(0,0%,67%,.7);
+}
+.lists-company:hover{
+  fill:hsla(172, 100%, 40%, 1);
+
+}
+.company h1{
+  line-height:35px;
+  font-size:28px; 
+  font-weight: lighter;
+  max-width: 250px;
+  margin-left: 200px;
+  padding-top: 25px;
+}
+.platforms{
+  display: flex;
+  background-color: #e5faf8;
+  height:800px;
+}
+.platforms h1{
+  margin-left: 200px;
+  margin-right: 80px;
+  padding-top: 40px;
+  color: #00b39b;
+  font-weight: lighter;
+}
+.platforms>p{
+  margin-left: 200px;
+  font-size: .875em;
+  max-width: 400px;
+  line-height:20px;
+  color: #747474;
+}
+.platform-img{
+  background: url("https://www.docplanner.com/img/logo.png");
+  background-repeat:no-repeat;
+  background-size:cover;
+  margin-left:40px;
+  height:420px;
+}
+.list-platform{
+ display: flex;
+ flex-flow: column;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ border: 1px solid pink;
+}
+.platform{
+  border:1px solid green;
+  background-color: white;
+  text-align: center;
+  margin-right: 200px;
+  border-radius: 5px;
+  width: 250px;
+  height: 290px;
+  
+}
+.list-platform h3{
+  color: #00b39b;
+}
