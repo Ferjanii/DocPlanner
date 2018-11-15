@@ -54,6 +54,11 @@ il {
 .link-header-h:hover{
   color:#00b39b;
 }
+.header-main-image{
+  max-width: 100%;
+    height: auto;
+    margin-top: 100px;
+}
 .main-header-section{
   display:flex;
   flex-direction:column;
@@ -137,6 +142,7 @@ il {
 }
 .company{
   display: flex;
+  margin-left:80px;
 }
 .list-company{
   display: flex;
@@ -150,7 +156,6 @@ il {
 }
 .lists-company:hover{
   fill:hsla(172, 100%, 40%, 1);
-
 }
 .company h1{
   line-height:35px;
@@ -228,7 +233,7 @@ il {
 }
 .paragraph-statistic p{
 max-width: 460px;
-margin-left: 330px;
+margin-left: 400px;
 color: #747474;
 font-size: 14px;
 line-height: 25px;
@@ -237,7 +242,7 @@ line-height: 25px;
   display: flex;
   flex-wrap: wrap;
   width:1300px;
-  margin-left: 20px;
+  margin-left: 90px;
   justify-content: center; 
   margin-bottom: 100px;
 }
